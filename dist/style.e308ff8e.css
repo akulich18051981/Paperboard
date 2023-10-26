@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headerwrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 1440px;
+    height: 105px;
+    background: #e3e3e3;
+}
+
+.imglogo {
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+.headermenu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.headermenunavhref {
+    text-shadow: 1px 1px 1px rgb(204, 204, 204);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 30px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgb(200, 198, 198);
+}
+
+.headermenunavhref:hover {
+    color: rgb(255, 124, 1);
+}
+
+.headermenunav {
+    margin-top: 40px;
+}
+
+.headermenucontactsemail {
+    margin-left: 90px;
+}
+
+.iconcontact {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.cont {
+    text-shadow: 1px 1px 1px rgb(190, 190, 190);
+    vertical-align: super;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.cont:hover {
+    color: rgb(255, 124, 1);
+    text-decoration: underline;
+}
+
+
+.iconemail {
+    margin-top: 5px;
+    width: 40px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.mainwrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(/fontitle.63226319.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 1440px;
+    height: 100%;
+}
+
+.maintitle {
+    margin: auto;
+    width: 1000px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-shadow: 1px 2px 2px rgb(165, 165, 165);
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.maintitletext {
+    width: 800px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mainkard {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.mainkardimg {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 350px;
+    margin-right: 50px;
+}
+
+.mainkardtextdescription {
+    font-weight: 600;
+    color: #d95a05;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.mainkardtextbtn {
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: none;
+}
+
+.mainkardtextbtn:hover {
+    color: rgb(7, 135, 10);
+}
+
+.kardtext {
+    padding-top: 5px;
+}
+
+.separator {
+    margin: 30px auto;
+    width: 1050px;
+    height: 2px;
+    background: #c7c7c7;
+    margin-bottom: 50px;
+}
+
+.mainform {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.context {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.name,
+.email {
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(0, 0, 0, .8),
+        23px 0 20px -23px rgba(0, 0, 0, .8),
+        0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+.submint {
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    color: rgb(229, 229, 229);
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(0, 0, 0, .8),
+        23px 0 20px -23px rgba(0, 0, 0, .8),
+        0 0 40px rgba(0, 0, 0, .1) inset;
+    background: #e5782b;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.submint:hover {
+    border: 1px solid #000000;
+    background: #c5641f;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 400px;
+    height: 110px;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(165, 165, 165, 0.8),
+        23px 0 20px -23px rgba(165, 165, 165, 0.8),
+        0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
